@@ -17,3 +17,9 @@ echo "................"
 echo "2. Mostrando interfaces y direcciones IP"
 ipconfig
 echo "................."
+
+#Display Routing Table
+
+echo "3. Mostrando tabla de enrutamiento"
+nestat -rn
+echo "................."
